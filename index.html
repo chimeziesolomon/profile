@@ -3,19 +3,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>profile</title>
+        <title>portfolio</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
     </head>
     <body>
-       <style>
-           * {
-    padding: 0%;
-    margin: 0px;
-}
+      <style>
+
 body {
     background: cornflowerblue;
+    width: 100%;
     
 }
 .navbar {
@@ -148,6 +147,19 @@ h1 {
       text-decoration: none;
       padding: 40px;
   }
+  @media screen and (max-width: 900px) {
+    .wrapper{
+        float: left;
+        width: 20%;
+    }
+    .container{
+        width: 50%;
+    }
+    .item {
+        width: 20%;
+    }
+  }
+  
   
   
         </style>
@@ -198,7 +210,11 @@ h1 {
               
                   <input type="submit" value="Submit">
                   <aside>
-                      <img src="./img/mypic.png" style="float: right; margin: -36% -5% 0% 0%; width: 628px; height: 490px; border-radius: 20%;">
+                      <img src="./img/mypic.png" style="float: right; margin: -33% -5% 0% 0%; width: 628px; 
+                      height: 480px; border-radius: 24%; @media screen {
+                          width: 100%;
+                      };">
+                      
                   </aside>
                 </form>
               </div>
